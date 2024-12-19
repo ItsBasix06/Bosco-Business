@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosco Business</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Oswald", serif;
+        }
+        nav {
+            background-color: darkblue;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            width: 19%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        header{
+            background-image: url(business.jpg);
+            background-size: cover;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       
+        }
+        #titular{
+
+            border: 2px solid red ;
+        }
+        #titulo{
+            color: purple;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+        section img{
+            border-radius: 50%;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        footer{
+            background-color: grey;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        display: flex;
+    }
+    .navbar a{
+        margin: 5px;
+        border: 1px solid red;
+        width: auto;
+        padding: 5px;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="">Quienes somos</a>
+        <a href="">Consultoria</a>
+        <a href="">Diseño Web</a>
+        <a href="">Donde estamos</a>
+        <a href="">Contacto</a>
+    </nav>
+    <header>
+        <div id="titular">
+            <h1>Bosco Bussinnes</h1>
+            <h2>Tu puerta al futuro</h2>
+        </div>
+    </header>
+    <section>
+        <div>
+        <h2 id="titulo">Lo dice nuestros clientes</h2>
+        <img src="chica.jpg" alt="">
+        <h2>Bosco Bussines es la solucion para mi empresa</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae earum nesciunt porro neque expedita vitae nisi atque doloribus, incidunt optio accusantium necessitatibus sint aut non aperiam sit autem est. Ad.
+        Cum non sit voluptatibus quisquam quod impedit omnis ratione praesentium, officia similique voluptatum, aspernatur dolor debitis fugit voluptates quaerat quam animi. Corrupti pariatur ex expedita est tempore beatae ducimus harum.</p>
+    </div>
+    </section>
+    <footer>(c)2020 Bosco Design S.L</footer>
+</body>
+</html>
